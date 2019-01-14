@@ -17,7 +17,7 @@ public class FallingPlatform : MonoBehaviour {
     {
         if (isFalling)
         {
-            downSpeed += Time.deltaTime/10;
+            downSpeed += Time.deltaTime/5;
             transform.position = new Vector3(transform.position.x,
                 transform.position.y - downSpeed,
                 transform.position.z);
